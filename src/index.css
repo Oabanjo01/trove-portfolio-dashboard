@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+@import 'tailwindcss';
+
+/* Trove v3 design tokens, these are usable as Tailwind utilities such
+   as bg-primary, text-muted, border-line, bg-chart-lavender */
+@theme {
+  --font-sans: 'Inter', ui-sans-serif, system-ui, sans-serif;
+
+  --color-primary: #059a83; /* buttons, active states, links */
+  --color-primary-light: #e0f5e1; /* badges, subtle backgrounds */
+
+  --color-gain: #10ae17; /* positive returns */
+  --color-loss: #bf221c; /* negative returns, errors */
+
+  --color-canvas: #fbfbfb; /* page background */
+  --color-surface: #ffffff; /* card backgrounds */
+  --color-page: #f5f1ee; /* outer page background */
+  --color-fill: #f2f6f6; /* input backgrounds, neutral fills */
+
+  --color-ink: #13342f; /* headings, primary text */
+  --color-muted: #687d7a; /* labels, secondary text */
+  --color-faint: #92a29f; /* placeholders, muted text */
+  --color-line: #dbdfdf; /* card borders, dividers */
+
+  --color-accent: #00b6df; /* highlights, info states */
+  --color-chart-lavender: #7b79c9; /* chart segments */
+  --color-chart-cream: #f2c891; /* chart segments */
+  --color-navy: #00323d; /* dark backgrounds */
+}
